@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        >
+        <link rel="stylesheet" href="css/stylesApp.css">
+        <title>Busca de Repositórios</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card-header">
+                <h3 class="card-title">Repositórios a buscar</h3>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <form autocomplete="off">
+                        <div class="form-group">
+                            <label for ="repositorio">Repositório</label>
+                            <input type="text" class="form-control" id="repositorio" placeholder="Repositório do Github" autofocus required>
+                            <small id="repositorioHelp" class="form-text text-muted">Informe o repositório para adicionar na lista</small>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Adicionar</button>
+                    </form>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action">
+                        <img src="https://avatars0.githubusercontent.com/u/8083459?v=4"/>
+                        <strong>Nerd Fonts</strong>
+                        <p>Iconic, font aggregator, colection, and patcher</p>
+                        <a target="_blank" href="https:/github.com/ryanoasis/nerd-fonts">Acessar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="bundle.js"></script>
+    </body>
+</html>
